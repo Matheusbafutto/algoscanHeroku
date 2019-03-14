@@ -7,7 +7,6 @@ DEBUG = bool(os.environ.get('DEBUG',False))
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 HTTPS='on'
 ACCOUNT_DEFAULT_HTTP_PROTOCOL='https'
-STATIC_ROOT='static/'
 # CACHES = {
 #     'default': {
 #         'BACKEND': 'redis_cache.RedisCache',
